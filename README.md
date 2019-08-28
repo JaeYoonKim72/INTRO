@@ -82,7 +82,7 @@ Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w
 
 Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 
-![R](https://user-images.githubusercontent.com/49300659/63834001-3e1c1b80-c9af-11e9-81e3-5b7d7c10351c.png)
+![R](https://user-images.githubusercontent.com/49300659/63834056-5ab85380-c9af-11e9-8bfe-ee1bcafbbda8.png)
 
 
 # Calculation Flow
