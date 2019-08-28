@@ -41,19 +41,19 @@ Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2
 
 Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
-Example: python Intro.py -m Dxy \\
+    Example: python Intro.py -m Dxy \
 
-                         --input ExampleData/TestSet_234.chr10.vcf.gz \\
+                         --input ExampleData/TestSet_234.chr10.vcf.gz \
                          
-                         --info ExampleData/TestSet_234.sample_group_info.txt \\
+                         --info ExampleData/TestSet_234.sample_group_info.txt \
                          
-                         --pop1 Cultivar_A \\
+                         --pop1 Cultivar_A \
                          
-                         --pop2 Cultivar_OutGroup \\
+                         --pop2 Cultivar_OutGroup \
                          
-                         --chr 10 \\
+                         --chr 10 \
                          
-                         --window 50000 \\
+                         --window 50000 \
                          
                          --slide 25000
 
