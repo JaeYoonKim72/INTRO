@@ -144,8 +144,12 @@ Source code in INTRO is publicly available and anyone can modify and redistribut
 
 # Reference
 
+Ai, H., Fang, X., Yang, B., Huang, Z., Chen, H., Mao, L., ... & Yang, J. (2015). Adaptation and possible ancient interspecies introgression in pigs identified by whole-genome sequencing. Nature genetics, 47(3), 217.
+
 Feder, J. L., Xie, X., Rull, J., Velez, S., Forbes, A., Leung, B., ... & Aluja, M. (2005). Mayr, Dobzhansky, and Bush and the complexities of sympatric speciation in Rhagoletis. Proceedings of the National Academy of Sciences, 102(suppl 1), 6573-6580.
 
 Nei, M., & Li, W. H. (1979). Mathematical model for studying genetic variation in terms of restriction endonucleases. Proceedings of the National Academy of Sciences, 76(10), 5269-5273.
 
 Patterson, N., Moorjani, P., Luo, Y., Mallick, S., Rohland, N., Zhan, Y., ... & Reich, D. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.
+
+Rosenzweig, B. K., Pease, J. B., Besansky, N. J., & Hahn, M. W. (2016). Powerful methods for detecting introgressed regions from population genomic data. Molecular ecology, 25(11), 2387-2397.
