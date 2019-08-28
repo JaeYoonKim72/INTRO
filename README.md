@@ -1,13 +1,12 @@
 # INTRO
 
-The INTRO 
+INTRO is a free software that can identify genomic regions introgressed between two groups.
 
-The INRO was developed by Jae-Yoon Kim. 
+Source code was written by Jae-Yoon Kim using Python language, and supported on windows and linux platform.
 
-This program is based on the GenoCore R version available at https://github.com/lovemun/Genocore.
+This software is based on three statistics, D-statistics, RND, and Dxy, raised by Patterson, Feder, and Nei.
 
-Source code was written in Python language and supported on windows and linux platform.
-
+The description of these three statistics is as follows.
 
 ![그림5](https://user-images.githubusercontent.com/49300659/63851385-2bb2d980-c9d1-11e9-8848-c04ab430c38b.png)
 
