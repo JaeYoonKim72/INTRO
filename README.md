@@ -100,7 +100,9 @@ jaeyoonkim72@gmail.com
 
 # License
 
-Copyright number in Korea: C-2017-024343
+INTRO is registered with the Korean Copyright Commission under accession umber C-2017-024343.
+
+Source code in INTRO is publicly available and anyone can modify and redistribute it.
 
 # Reference
 
