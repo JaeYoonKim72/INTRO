@@ -14,7 +14,7 @@ Source code was written in Python language and supported on windows and linux pl
 
 Usage: python Intro.py -m [ Dstat | RND | Dxy ] ...
 
-## Dstat
+## 1) Dstat
 
 Usage: python Intro.py -m Dstat -v [VCF] -i [INFO] -o [OUT-POP] -t [THR-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
@@ -41,7 +41,7 @@ Usage: python Intro.py -m Dstat -v [VCF] -i [INFO] -o [OUT-POP] -t [THR-POP] -p 
                          --slide 25000
 
 
-## RND
+## 2) RND
 
 Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
@@ -66,7 +66,7 @@ Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2
                          --slide 25000
 
 
-## Dxy
+## 3) Dxy
 
 Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
@@ -88,7 +88,8 @@ Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w
                          
                          --slide 25000
 
-## Plot
+# Plot 
+## 1) Usage
 
 Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 
@@ -108,7 +109,13 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
                      Dxy \
                      Dxy.50000.25000.10.Cultivar_A-Cultivar_OutGroup.txt \
                      10
-                                                              
+                     
+## 2) Example plot
+
+High D-statistic value and low RND and Dxy values indicate candidate regions for introgression events.
+
+![그림3](https://user-images.githubusercontent.com/49300659/63839467-5180b400-c9ba-11e9-8468-196bcb3737f4.png)
+
                      
 # Calculation Flow
 
