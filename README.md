@@ -94,7 +94,22 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 
 ![R](https://user-images.githubusercontent.com/49300659/63834107-77ed2200-c9af-11e9-889a-584d42b882fb.png)
 
+    Example: Rscript IntroPlot.R \
+                     Dstat \
+                     Dtest.50000.25000.10.Cultivar_B-Cultivar_A-Cultivar_OutGroup-Wild_Mix_GroupA.txt \
+                     10
 
+    Example: Rscript IntroPlot.R \
+                     RND \
+                     RND.50000.25000.10.Cultivar_A-Cultivar_OutGroup-Wild_Mix_GroupA.txt \
+                     10
+                     
+    Example: Rscript IntroPlot.R \
+                     Dxy \
+                     Dxy.50000.25000.10.Cultivar_A-Cultivar_OutGroup.txt \
+                     10
+                                                              
+                     
 # Calculation Flow
 
 The Calculation flow of INTRO is as follows.
