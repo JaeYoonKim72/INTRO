@@ -6,15 +6,15 @@ Usage: python Intro.py -m [ Dstat | RND | Dxy ] ...
 
 ## Dstat
 
-![Dstat](https://user-images.githubusercontent.com/49300659/63832209-45d9c100-c9ab-11e9-9120-f95b3470103e.png)
+![Dstat](https://user-images.githubusercontent.com/49300659/63832735-69513b80-c9ac-11e9-93fe-0b656cb363eb.png)
 
 ## RND
 
-![RND](https://user-images.githubusercontent.com/49300659/63832222-4d996580-c9ab-11e9-8f67-2608b0d94651.png)
+![RND](https://user-images.githubusercontent.com/49300659/63832750-71a97680-c9ac-11e9-8a63-f413eec203bf.png)
 
 ## Dxy
 
-![Dxy](https://user-images.githubusercontent.com/49300659/63832241-55f1a080-c9ab-11e9-876e-08c7f973e385.png)
+![Dxy](https://user-images.githubusercontent.com/49300659/63832768-7837ee00-c9ac-11e9-805f-f955aa8e5f5b.png)
 
 # Calculation Flow
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
