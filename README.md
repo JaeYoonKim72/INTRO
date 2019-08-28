@@ -90,10 +90,9 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 
 # Requirement
 
-Python 3.0 and numpy library are requiered for calculation.
+Python 3.0 program and numpy library are requiered for calculation.
 
-R and ggplot library are required for generating reuslt plots.
-
+R program and ggplot library are required for generating result plots.
 
 # Contact
 
