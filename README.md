@@ -78,6 +78,12 @@ Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w
                          
                          --slide 25000
 
+## Plot
+
+Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
+
+![R](https://user-images.githubusercontent.com/49300659/63834001-3e1c1b80-c9af-11e9-81e3-5b7d7c10351c.png)
+
 
 # Calculation Flow
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
