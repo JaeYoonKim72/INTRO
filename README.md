@@ -1,5 +1,15 @@
 # INTRO
 
+The INTRO 
+
+The INRO was developed by Jae-Yoon Kim. 
+
+This program is based on the GenoCore R version available at https://github.com/lovemun/Genocore.
+
+Source code was written in Python language and supported on windows and linux platform.
+
+
+
 # Basic Usage
 
 Usage: python Intro.py -m [ Dstat | RND | Dxy ] ...
@@ -16,9 +26,9 @@ Usage: python Intro.py -m Dstat -v [VCF] -i [INFO] -o [OUT-POP] -t [THR-POP] -p 
                          
                          --info ExampleData/TestSet_234.sample_group_info.txt \
                          
-                         --popO Wild_GroupC \
+                         --popO Wild_Mix_GroupA \
                          
-                         --popT Wild_Mix_GroupB \
+                         --popT Cultivar_B \
                          
                          --pop1 Cultivar_A \
                          
@@ -43,7 +53,7 @@ Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2
                          
                          --info ExampleData/TestSet_234.sample_group_info.txt \
                          
-                         --popO Wild_Mix_GroupB \
+                         --popO Wild_Mix_GroupA \
                          
                          --pop1 Cultivar_A \
                          
@@ -86,7 +96,11 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 
 
 # Calculation Flow
+
+The Calculation flow of INTRO is as follows.
+
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
+
 
 # Requirement
 
