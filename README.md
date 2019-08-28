@@ -17,13 +17,21 @@ Example:
 Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
 Example: python Intro.py -m RND \\
+
                          --input ExampleData/TestSet_234.chr10.vcf.gz \\
+                         
                          --info ExampleData/TestSet_234.sample_group_info.txt \\
+                         
                          --popO Wild_Mix_GroupB \\
+                         
                          --pop1 Cultivar_A \\
+                         
                          --pop2 Cultivar_OutGroup \\
+                         
                          --chr 10 \\
+                         
                          --window 50000 \\
+                         
                          --slide 25000
 
 ![RND](https://user-images.githubusercontent.com/49300659/63832750-71a97680-c9ac-11e9-8a63-f413eec203bf.png)
@@ -33,12 +41,19 @@ Example: python Intro.py -m RND \\
 Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
 Example: python Intro.py -m Dxy \\
+
                          --input ExampleData/TestSet_234.chr10.vcf.gz \\
+                         
                          --info ExampleData/TestSet_234.sample_group_info.txt \\
+                         
                          --pop1 Cultivar_A \\
+                         
                          --pop2 Cultivar_OutGroup \\
+                         
                          --chr 10 \\
+                         
                          --window 50000 \\
+                         
                          --slide 25000
 
 ![Dxy](https://user-images.githubusercontent.com/49300659/63832768-7837ee00-c9ac-11e9-805f-f955aa8e5f5b.png)
