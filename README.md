@@ -1,5 +1,21 @@
 # INTRO
 
+# Basic Usage
+
+Usage: python Intro.py -m [ Dstat | RND | Dxy ] ...
+
+## Dstat
+
+![Dstat](https://user-images.githubusercontent.com/49300659/63832209-45d9c100-c9ab-11e9-9120-f95b3470103e.png)
+
+## RND
+
+![RND](https://user-images.githubusercontent.com/49300659/63832222-4d996580-c9ab-11e9-8f67-2608b0d94651.png)
+
+## Dxy
+
+![Dxy](https://user-images.githubusercontent.com/49300659/63832241-55f1a080-c9ab-11e9-876e-08c7f973e385.png)
+
 # Calculation Flow
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
 
