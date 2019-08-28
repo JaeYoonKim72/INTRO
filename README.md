@@ -16,6 +16,7 @@ Example:
 
 Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
+
 Example: python Intro.py -m RND \\
 
                          --input ExampleData/TestSet_234.chr10.vcf.gz \\
