@@ -8,14 +8,34 @@ Usage: python Intro.py -m [ Dstat | RND | Dxy ] ...
 
 Usage: python Intro.py -m Dstat -v [VCF] -i [INFO] -o [OUT-POP] -t [THR-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
-Example: 
-
 ![Dstat](https://user-images.githubusercontent.com/49300659/63832735-69513b80-c9ac-11e9-93fe-0b656cb363eb.png)
+
+    Example: python Intro.py -m Dstat \
+    
+                         --input ExampleData/TestSet_234.chr10.vcf.gz \
+                         
+                         --info ExampleData/TestSet_234.sample_group_info.txt \
+                         
+                         --popO Wild_GroupC \
+                         
+                         --popT Wild_Mix_GroupB \
+                         
+                         --pop1 Cultivar_A \
+                         
+                         --pop2 Cultivar_OutGroup \
+                         
+                         --chr 10 \
+                         
+                         --window 50000 \
+                         
+                         --slide 25000
+
 
 ## RND
 
 Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
 
+![RND](https://user-images.githubusercontent.com/49300659/63832750-71a97680-c9ac-11e9-8a63-f413eec203bf.png)
 
     Example: python Intro.py -m RND \
 
@@ -35,11 +55,12 @@ Usage: python Intro.py -m RND -v [VCF] -i [INFO] -o [OUT-POP] -p [POP1] -q [POP2
                          
                          --slide 25000
 
-![RND](https://user-images.githubusercontent.com/49300659/63832750-71a97680-c9ac-11e9-8a63-f413eec203bf.png)
 
 ## Dxy
 
 Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w [WINDOW] -s [SLIDE]
+
+![Dxy](https://user-images.githubusercontent.com/49300659/63832768-7837ee00-c9ac-11e9-805f-f955aa8e5f5b.png)
 
     Example: python Intro.py -m Dxy \
 
@@ -57,7 +78,6 @@ Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w
                          
                          --slide 25000
 
-![Dxy](https://user-images.githubusercontent.com/49300659/63832768-7837ee00-c9ac-11e9-805f-f955aa8e5f5b.png)
 
 # Calculation Flow
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
