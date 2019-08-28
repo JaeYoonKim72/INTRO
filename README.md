@@ -13,7 +13,7 @@ The description of these three statistics is as follows:
 
 # Calculation Flow
 
-INTRO calculates by sliding the entire genome as a given window range, and derives the Z-score for each statistic through bootstrap and jacknife approaches.
+INTRO calculates by sliding the entire genome as a given window range, and presents statistic value as well as Z-score value derived from bootstrap and jacknife approaches.
 
 Calculation flow is as follows:
 
