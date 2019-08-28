@@ -88,7 +88,7 @@ Usage: python Intro.py -m Dxy -v [VCF] -i [INFO] -p [POP1] -q [POP2] -c [CHR] -w
                          
                          --slide 25000
 
-# Plot 
+# Plot Usage
 ## 1) Usage
 
 Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
