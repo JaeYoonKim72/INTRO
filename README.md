@@ -6,9 +6,18 @@ Source code was written by Jae-Yoon Kim using Python language, and supported on 
 
 This software is based on three statistics, D-statistics, RND, and Dxy, raised by Patterson, Feder, and Nei.
 
-The description of these three statistics is as follows.
+The description of these three statistics is as follows:
 
 ![그림5](https://user-images.githubusercontent.com/49300659/63851385-2bb2d980-c9d1-11e9-8848-c04ab430c38b.png)
+
+
+# Calculation Flow
+
+INTRO calculates by scanning the entire genome as a given window range, 
+
+Calculation flow is as follows:
+
+![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
 
 
 # Basic Usage
@@ -116,14 +125,7 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
 High D-statistic value and low RND and Dxy values indicate candidate region for introgression events.
 
 ![그림3](https://user-images.githubusercontent.com/49300659/63839467-5180b400-c9ba-11e9-8468-196bcb3737f4.png)
-
-                     
-# Calculation Flow
-
-Calculation flow of INTRO is as follows.
-
-![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
-
+                 
 
 # Requirement
 
@@ -131,15 +133,18 @@ Python 3.0 program and numpy library are requiered for calculation.
 
 R program and ggplot library are required for generating result plots.
 
+
 # Contact
 
 jaeyoonkim72@gmail.com
+
 
 # License
 
 INTRO is registered with the Korean Copyright Commission under accession umber C-2017-024343.
 
 Source code in INTRO is publicly available and anyone can modify and redistribute it.
+
 
 # Reference
 
