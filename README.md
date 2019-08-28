@@ -119,7 +119,7 @@ High D-statistic value and low RND and Dxy values indicate candidate region for 
                      
 # Calculation Flow
 
-The Calculation flow of INTRO is as follows.
+Calculation flow of INTRO is as follows.
 
 ![그림1](https://user-images.githubusercontent.com/49300659/63830448-1fb22200-c9a7-11e9-86f5-ba709246719c.jpg)
 
