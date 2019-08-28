@@ -112,7 +112,7 @@ Usage: Rscript IntroPlot.R [METHOD] [RESULT_FILE] [CHR]
                      
 ## 2) Example plot
 
-High D-statistic value and low RND and Dxy values indicate candidate regions for introgression events.
+High D-statistic value and low RND and Dxy values indicate candidate region for introgression events.
 
 ![그림3](https://user-images.githubusercontent.com/49300659/63839467-5180b400-c9ba-11e9-8468-196bcb3737f4.png)
 
