@@ -9,6 +9,8 @@ This program is based on the GenoCore R version available at https://github.com/
 Source code was written in Python language and supported on windows and linux platform.
 
 
+![그림5](https://user-images.githubusercontent.com/49300659/63851385-2bb2d980-c9d1-11e9-8848-c04ab430c38b.png)
+
 
 # Basic Usage
 
